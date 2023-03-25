@@ -134,13 +134,13 @@ nav ul li a:hover::after {
 }
 /* project */
 #projects {
-  padding: 50px 0;
+  padding: 60px 0;
 }
 .work-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 40px;
-  margin-top: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 30px;
+  margin-top: 70px;
 }
 .work {
   border-radius: 10px;
@@ -148,11 +148,12 @@ nav ul li a:hover::after {
   overflow: hidden;
 }
 .work img {
-  width: 100%;
+  width: 120%;
+  /* width: 350px; */
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
-  height: 350px;
+  height: 250px;
 }
 .layer {
   width: 100%;
