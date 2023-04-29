@@ -150,12 +150,12 @@ nav ul li a:hover::after {
   overflow: hidden;
 }
 .work img {
-  width: 100%;
+  width: 140%;
   /* width: 350px; */
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
-  height: 17em;
+  height: 20em;
 }
 .layer {
   width: 100%;
